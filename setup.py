@@ -6,7 +6,7 @@ here = Path(__file__).parent.resolve()
 longDescription = (here / 'README.md').read_text('utf-8')
 description = longDescription.split('\n')[1]
 
-NAME = ''
+NAME = 'editdistances'
 VERSION = '0.1.0'
 
 setup(
